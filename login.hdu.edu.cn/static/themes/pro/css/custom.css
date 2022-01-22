@@ -1,0 +1,410 @@
+body {
+    background-image: url(../images/background/background.jpg);
+}
+
+#app .header {
+    display: none;
+    background: rgba(255, 255, 255, .7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .15);
+    height: 70px;
+}
+
+#app .header .logo {
+    margin-left: 0;
+}
+
+#app .btn {
+    display: inline-block;
+    background: #566e82;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 100px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#app .section {
+    /*margin-top: 100px;*/
+    width: 940px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#app .section .title {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: #fff;
+}
+
+#app .section .panel {
+    width: 310px;
+}
+
+#app .section .panel-login {
+    /*float: right;*/
+    /*border-radius: 0 0 10px 10px;*/
+    /*box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12);*/
+    /*background: rgba(255, 255, 255, 0.7);*/
+    color: #303133;
+}
+
+#app .section .panel-login .input-icon {
+    display: none;
+}
+
+#app .section .panel-login .remember {
+    display: none;
+}
+
+#app .section .panel-login .forget {
+    display: none;
+}
+
+#app .section .panel-login .domain {
+    display: block;
+}
+
+#app .section .panel-login .input-label {
+    display: none;
+    float: none;
+    width: 15%;
+}
+
+#app section .panel-login .use-protocol {
+    color: #268ECB;
+    cursor: pointer;
+}
+
+#app .section .panel-login .input-box {
+    width: 100%;
+    /*padding-left: 60px;*/
+    text-align: center;
+    padding: 0 40px;
+    font-size: 16px;
+}
+
+#app .section .panel-login .btn-login,
+#app .section .panel-login .btn-logout {
+    float: left;
+    width: 100%;
+}
+
+#app .section .panel-login .btn-self-service {
+    display: block;
+    float: right;
+    width: 45%;
+}
+
+#app .section .panel-login .mode-account {
+    display: inline-block;
+}
+
+#app .section .panel-login .mode-sms {
+    display: inline-block;
+}
+
+#app .section .panel-login .mode-wechat {
+    display: inline-block;
+}
+
+#app .section .panel-login .mode-sso {
+    display: inline-block;
+}
+
+#app .section .panel-login .mode-token {
+    display: inline-block;
+}
+
+#app .section .panel-login .download-win {
+    display: none;
+}
+
+#app .section .panel-login .download-mac {
+    display: none;
+}
+
+#app .section .panel-login .download-android {
+    display: none;
+}
+
+#app .section .panel-login .download-ios {
+    display: none;
+}
+
+#app .section .panel-login .btn-pay {
+    display: none;
+}
+
+#app .section .panel-notice {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12);
+    background: rgba(255, 255, 255, 0.7);
+    color: #303133;
+}
+
+#app .footer {
+    background: #201d1c;
+    color: #FFFFFF;
+    box-shadow: none;
+    font-size: 14px
+}
+
+
+/* 杭科大 */
+#app .section .panel-login .title-container {
+    margin-bottom: 5px;
+}
+
+#app .section .panel-login  .title-container .logo {
+    max-width: 120px;
+    width: 35%;
+}
+
+#app .section .panel-login .icon {
+    max-width: 25px;
+    vertical-align: middle;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+#app .section .panel-login .left {
+    text-align: left;
+}
+
+#app .section .tip {
+    color: #ffffff;
+    text-align: center;
+}
+
+#app .section .tip p {
+    font-size: 12px;
+}
+
+#app .section .panel-login button img{
+    max-width: 25px;
+}
+
+#app .section .panel-login .btn:hover {
+    background: #67aae6
+}
+
+#app .section .panel-login .btn-notice,
+#app .pic-info .pic-container .close-pic {
+    float: right;
+    cursor: pointer;
+}
+
+#app .model {
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    color: #ffffff;
+    text-align: center;
+}
+
+#app .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#app .convention .notice-container {
+    max-height: 400px;
+    max-width: 700px;
+}
+
+#app .convention .notice-container .title-container {
+    margin-bottom: 50px;
+}
+
+#app .convention .notice-container img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+#app .pic-info .pic-container {
+    max-height: 750px;
+    max-width: 570px;
+    line-height: 25px;
+    text-align: left;
+}
+
+#app .pic-info .pic-container .topbar {
+    border-bottom: 1px solid #cccccc;
+    font-size: 16px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+#app .pic-info .pic-container img {
+    width: 100%;
+}
+
+#app .footer p {
+    font-size: 12px;
+}
+
+#app .footer .btn-pic {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 9px;
+    top: -20px;
+    padding: 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #356cd8;
+}
+#app .footer .tip {
+    display: none;
+    position: absolute;
+    right: 4px;
+    top: -70px;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#app .footer .tip:after {
+    position: absolute;
+    border: 5px solid rgba(0, 0, 0, .8);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 0;
+    right: 15px;
+    bottom: -5px;
+    content: ''
+}
+#app .footer .tip .name {
+    display: inline-block;
+    padding: 8px 8px;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    vertical-align: middle;
+    margin-right: -3px;
+}
+#app .footer .tip .close-tip {
+    width: 43px;
+    padding: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid rgba(204, 204, 204, .7);
+    vertical-align: middle;
+    cursor: pointer;
+}
+#app .footer .tip .name:hover,
+#app .footer .tip .close-tip:hover {
+    background: rgba(51, 153, 255, .4);
+}
+
+#app .section-success {
+    height: 100%;
+}
+
+#app .section-success .panel-success {
+    width: 720px;
+    min-height: 480px;
+    padding: 40px 0;
+}
+
+#app .section-success .panel-success .head {
+    text-align: left;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(247, 248, 248, 0.5);
+
+    color: #ffffff;
+
+}
+
+#app .section-success .panel-success .head div {
+    display: inline-block;
+}
+
+#app .section-success .panel-success .head .logo {
+    max-width: 30px;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+#app .section-success .panel-success .head .btn-logout {
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 2px 5px 0 7px;
+    line-height: 28px;
+    color: #ffffff;
+    float: right;
+    margin-right: 15px;
+}
+
+#app .section-success .content {
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#app .section-success .content .result {
+    line-height: 20px;
+    padding: 30px 0 40px 0;
+}
+
+#app .section-success .content .result .result-title {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#app .section-success .content .result span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#app .section-success .content .news .news-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#app .section-success .content .news .side_hr {
+    display: inline-block;
+    width: 624px;
+    border-bottom: 1px solid rgba(247, 248, 248, .5);
+}
+
+#app .section-success .content .news .card {
+    padding: 15px;
+    line-height: 20px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0 100%, 57.7% 100%, from(rgba(49, 90, 212, .8)), to(rgba(60, 141, 223, .8)));
+}
+
+#app .section-success .content .news .card .by {
+    margin-top: 15px;
+}
+
+#app .section-success .content .btn-back {
+    margin-top: 20px;
+}
+
+.show {
+    display: block !important;
+}

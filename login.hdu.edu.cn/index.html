@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="杭州电子科技大学">
+    <title>杭州电子科技大学</title>
+    <script src="./static/themes/pro/js/redirect.js?v=2.00.20201030"></script>
+    <link type="images/x-icon" rel="shortcut icon" href="./static/themes/pro/images/favicon.ico?v=2.00.20201030">
+    <link rel="stylesheet" href="./static/themes/pro/lib/material/material.min.css?v=2.00.20201030">
+    <link rel="stylesheet" href="./static/themes/pro/lib/ionicons/ionicons.min.css?v=2.00.20201030">
+    <link rel="stylesheet" href="./static/themes/pro/css/components.css?v=2.00.20201030">
+    <link rel="stylesheet" href="./static/themes/pro/css/main.css?v=2.00.20201030">
+    <link rel="stylesheet" href="./static/themes/pro/css/custom.css?v=2.00.20201030">
+    <!--[if lt IE 8]>
+    <script src="./static/themes/ie6/lib/patch/ie6.js?v=2.00.20201030"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="./static/themes/pro/css/patch.css?v=2.00.20201030">
+    <script src="./static/themes/pro/lib/patch/respond.min.js?v=2.00.20201030"></script>
+    <script src="./static/themes/pro/lib/patch/rem.min.js?v=2.00.20201030"></script>
+    <script src="./static/themes/pro/lib/patch/html5shiv-printshiv.min.js?v=2.00.20201030"></script>
+    <![endif]-->
+</head>
+<body>
+
+<main id="app">
+    
+    <header class="header" ref="header">
+        <img src="./static/themes/pro/images/logo/logo.png?v=2.00.20201030" class="logo" alt="logo">
+        
+        <select id="change-lang" class="change-lang" value="default">
+            <option class="option" value="default">语言 / Language</option>
+            <option class="option" value="zh-CN">中文 (简体)</option>
+            <option class="option" value="en-US">English</option>
+        </select>
+    </header>
+    
+    <section class="section" ref="section">
+        
+        <div class="panel panel-login">
+            
+            <div class="panel-row title-container">
+                <img src="./static/themes/pro/images/logo/logo.png?v=2.00.20201030" class="logo">
+                <div class="title">校园上网认证</div>
+            </div>
+            
+            <div class="panel-row">
+                <i class="material-icons input-icon">person</i>
+                <img src="./static/themes/pro/images/icon/user.png?v=2.00.20201030" class="icon">
+                <label class="input-label" for="username">账号</label>
+                <input type="text" id="username" class="input-box" placeholder="学/工号">
+                
+                
+            </div>
+            
+            <div class="panel-row">
+                <i class="material-icons input-icon">lock</i>
+                <img src="./static/themes/pro/images/icon/password.png?v=2.00.20201030" class="icon">
+                <label class="input-label" for="password">密码</label>
+                <input type="password" id="password" class="input-box" placeholder="密码">
+            </div>
+            
+            <div class="panel-row">
+                
+                <div class="remember">
+                    <input type="checkbox" id="remember" class="input-remember">
+                    <label for="remember" class="label-remember">记住密码</label>
+                </div>
+                
+                <div class="forget" id="forget">
+                    <span>修改密码</span>
+                </div>
+            </div>
+            
+            <div class="panel-row login-addmode">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            
+            <div class="panel-row">
+                
+                
+                
+                <span class="btn-pay pc-pay" id="btn-pay">充值缴费</span>
+            </div>
+            
+            <div class="panel-row tip">
+                <p>注：密码与数字杭电相同</p>
+            </div>
+            
+            <div class="panel-row">
+                <button type="button" class="btn-login" id="login-account">
+                    <img src="./static/themes/pro/images/icon/check.png?v=2.00.20201030">
+                </button>
+                
+            </div>
+            
+            <div class="panel-row">
+                
+                <div class="btn btn-sms panel-row-item login-mode mode-sms"id="self-service">自助服务</div>
+                <div class="btn btn-notice show-notice">文明上网公约</div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="convention model">
+        <div class="notice-container container" id="notice-container">
+            <div class="panel-row title-container">
+                <h3 class="title" id="notice-title"></h3>
+            </div>
+            <div class="content" id="notice-content"></div>
+            <img src="./static/themes/pro/images/icon/close.png?v=2.00.20201030" class="close-notice">
+        </div>
+    </div>
+    
+    <div class="pic-info model">
+        <div class="pic-container container">
+            <div class="topbar">
+                <strong>背景图片来源</strong>
+                <span class="close-pic">关闭</span>
+            </div>
+            <img src="./static/themes/pro/images/background/background.jpg">
+            <div class="author">© </div>
+            <div class="des">长虹揽月，位于杭州电子科技大学正门，是学校标志性建筑，有亚洲首个最宽校门之称。高近30米，上书“杭州电子科技大学”几个大字，宽75米，如一道长虹擎起优美的弧线，将其侧月雅湖揽入怀中。</div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p class="copyright">上网认证 © Copyright 2021 HDU.</p>
+        <div class="tip show">
+            <span class="name show-pic">长虹揽月</span>
+            <img class="close-tip" src="./static/themes/pro/images/icon/basic_close.png">
+        </div>
+        
+        <img src="./static/themes/pro/images/icon/i.png?v=2.00.20201030" class="btn-pic show-pic">
+    </footer>
+</main>
+
+<script>
+    var CONFIG = {
+        page   : 'account',
+        ip     : "10.1.123.11",
+        nas    : "",
+        mac    : "",
+        url    : "",
+        lang   : "zh-CN" || 'zh-CN',
+        isIPV6 :  false ,
+        portal : {"AuthIP":"login.hdu.edu.cn","AuthIP6":"","ServiceIP":"https://login.hdu.edu.cn","DoubleStackPC":false,"DoubleStackMobile":false,"AuthMode":false,"CloseLogout":false,"MacAuth":false,"RedirectUrl":true,"OtherPCStack":"IPV4","OtherMobileStack":"IPV4","MsgApi":"new","PublicSuccessPages":true,"TrafficCarry":1024,"UserAgreeSwitch":false},
+        notice : "one",
+        priceList : {"Prices":"5,10,20,50,100","Default":"0.01","BalanceWarning":"5"}
+    };
+</script>
+<script src="./static/themes/pro/lib/all.min.js?v=20180302?v=2.00.20201030"></script>
+<script src="./static/themes/pro/lib/patch/patch.es6.js?v=2.00.20201030"></script>
+<script src="./static/themes/pro/js/creater.js?v=2.00.20201030"></script>
+<script src="./static/themes/pro/js/lang.js?v=2.00.20201030"></script>
+<script src="./static/themes/pro/js/Utils.js?v=2.00.20201030"></script>
+<script src="./static/themes/pro/js/Portal.js?v=2.00.20201030"></script>
+<script src="./static/themes/pro/js/main.js?v=2.00.20201030"></script>
+</body>
+</html>

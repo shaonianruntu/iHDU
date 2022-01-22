@@ -1,0 +1,13 @@
+{
+  "name": "playwright-solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.16.3",
+    "ping": "^0.4.1",
+    "playwright": "^1.16.3",
+    "playwright-cli": "^0.180.0",
+    "@types/ping": "^0.4.0"
+  }
+}
